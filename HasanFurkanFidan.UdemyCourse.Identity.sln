@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SHARED", "SHARED", "{193E0ABB-5C83-49B0-9B82-9413C03AD55C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HasanFurkanFidan.UdemyCourse.SHARED", "HasanFurkanFidan.UdemyCourse.SHARED\HasanFurkanFidan.UdemyCourse.SHARED.csproj", "{2B9D0678-39BD-48C9-B42C-48106FCCFD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HasanFurkanFidan.UdemyCourse.Identity.WebApi", "HasanFurkanFidan.UdemyCourse.Identity.WebApi\HasanFurkanFidan.UdemyCourse.Identity.WebApi.csproj", "{E389865B-E964-49BC-B3DB-8D145FFD574A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B9D0678-39BD-48C9-B42C-48106FCCFD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9D0678-39BD-48C9-B42C-48106FCCFD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9D0678-39BD-48C9-B42C-48106FCCFD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9D0678-39BD-48C9-B42C-48106FCCFD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E389865B-E964-49BC-B3DB-8D145FFD574A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E389865B-E964-49BC-B3DB-8D145FFD574A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E389865B-E964-49BC-B3DB-8D145FFD574A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E389865B-E964-49BC-B3DB-8D145FFD574A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B9D0678-39BD-48C9-B42C-48106FCCFD08} = {193E0ABB-5C83-49B0-9B82-9413C03AD55C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D559A61D-B116-4EAF-BC81-C5669EFAA390}
+	EndGlobalSection
+EndGlobal
