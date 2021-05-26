@@ -1,0 +1,9 @@
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\HasanFurkanFidan.UdemyCourse.SHARED\bin\Debug\netcoreapp3.1\HasanFurkanFidan.UdemyCourse.SHARED.deps.json
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\HasanFurkanFidan.UdemyCourse.SHARED\bin\Debug\netcoreapp3.1\HasanFurkanFidan.UdemyCourse.SHARED.dll
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\HasanFurkanFidan.UdemyCourse.SHARED\bin\Debug\netcoreapp3.1\HasanFurkanFidan.UdemyCourse.SHARED.pdb
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\HasanFurkanFidan.UdemyCourse.SHARED\obj\Debug\netcoreapp3.1\HasanFurkanFidan.UdemyCourse.SHARED.csprojAssemblyReference.cache
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\HasanFurkanFidan.UdemyCourse.SHARED\obj\Debug\netcoreapp3.1\HasanFurkanFidan.UdemyCourse.SHARED.AssemblyInfoInputs.cache
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\HasanFurkanFidan.UdemyCourse.SHARED\obj\Debug\netcoreapp3.1\HasanFurkanFidan.UdemyCourse.SHARED.AssemblyInfo.cs
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\HasanFurkanFidan.UdemyCourse.SHARED\obj\Debug\netcoreapp3.1\HasanFurkanFidan.UdemyCourse.SHARED.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\HasanFurkanFidan.UdemyCourse.SHARED\obj\Debug\netcoreapp3.1\HasanFurkanFidan.UdemyCourse.SHARED.dll
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\HasanFurkanFidan.UdemyCourse.SHARED\obj\Debug\netcoreapp3.1\HasanFurkanFidan.UdemyCourse.SHARED.pdb

@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using HasanFurkanFidan.UdemyCourse.IdentityServer.Models;
-
+using Microsoft.EntityFrameworkCore.SqlServer;
 namespace HasanFurkanFidan.UdemyCourse.IdentityServer.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
+           
         {
         }
 

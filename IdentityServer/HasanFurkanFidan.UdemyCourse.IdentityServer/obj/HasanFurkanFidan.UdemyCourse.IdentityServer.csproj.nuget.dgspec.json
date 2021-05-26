@@ -4,14 +4,14 @@
     "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer.csproj": {
+    "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\HasanFurkanFidan.UdemyCourse.SHARED\\HasanFurkanFidan.UdemyCourse.SHARED.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer.csproj",
-        "projectName": "HasanFurkanFidan.UdemyCourse.IdentityServer",
-        "projectPath": "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer.csproj",
+        "projectUniqueName": "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\HasanFurkanFidan.UdemyCourse.SHARED\\HasanFurkanFidan.UdemyCourse.SHARED.csproj",
+        "projectName": "HasanFurkanFidan.UdemyCourse.SHARED",
+        "projectPath": "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\HasanFurkanFidan.UdemyCourse.SHARED\\HasanFurkanFidan.UdemyCourse.SHARED.csproj",
         "packagesPath": "C:\\Users\\Furkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer\\obj\\",
+        "outputPath": "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\HasanFurkanFidan.UdemyCourse.SHARED\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,81 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer.csproj",
+        "projectName": "HasanFurkanFidan.UdemyCourse.IdentityServer",
+        "projectPath": "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer.csproj",
+        "packagesPath": "C:\\Users\\Furkan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Furkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\HasanFurkanFidan.UdemyCourse.SHARED\\HasanFurkanFidan.UdemyCourse.SHARED.csproj": {
+                "projectPath": "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\HasanFurkanFidan.UdemyCourse.SHARED\\HasanFurkanFidan.UdemyCourse.SHARED.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
             "IdentityServer4.AspNetIdentity": {
               "target": "Package",
               "version": "[4.0.0, )"
@@ -63,6 +138,20 @@
               "target": "Package",
               "version": "[3.1.5, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.5, )"
@@ -71,7 +160,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.15, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",

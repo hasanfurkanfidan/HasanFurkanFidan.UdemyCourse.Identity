@@ -2,7 +2,11 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
+using HasanFurkanFidan.UdemyCourse.IdentityServer.Data;
+using HasanFurkanFidan.UdemyCourse.IdentityServer.Models;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -37,22 +41,24 @@ namespace HasanFurkanFidan.UdemyCourse.IdentityServer
 
             try
             {
-                var seed = args.Contains("/seed");
-                if (seed)
-                {
-                    args = args.Except(new[] { "/seed" }).ToArray();
-                }
-
                 var host = CreateHostBuilder(args).Build();
 
-                if (seed)
+                using (var scope = host.Services.CreateScope())
                 {
-                    Log.Information("Seeding database...");
-                    var config = host.Services.GetRequiredService<IConfiguration>();
-                    var connectionString = config.GetConnectionString("DefaultConnection");
-                    SeedData.EnsureSeedData(connectionString);
-                    Log.Information("Done seeding database.");
-                    return 0;
+                    var serviceProvider = scope.ServiceProvider;
+                    //var dbContext = serviceProvider.GetRequiredService<ApplicationDbContext>();
+                    //dbContext.Database.Migrate();
+
+                    var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+                    var users = userManager.Users.ToList();
+                    if (users.Count==0)
+                    {
+                        var user =new ApplicationUser();
+                        user.FirstName = "Hasan Furkan";
+                        user.LastName = "Fidan";
+                        user.UserName = "hasanfurkanfidan";
+                        userManager.CreateAsync(user,"*147Fur369*").Wait();
+                    }
                 }
 
                 Log.Information("Starting host...");
