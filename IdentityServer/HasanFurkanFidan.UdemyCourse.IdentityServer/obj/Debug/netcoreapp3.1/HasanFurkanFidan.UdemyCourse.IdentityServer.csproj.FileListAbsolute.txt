@@ -135,3 +135,8 @@ C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\IdentityServe
 C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\IdentityServer\HasanFurkanFidan.UdemyCourse.IdentityServer\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\IdentityServer\HasanFurkanFidan.UdemyCourse.IdentityServer\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\IdentityServer\HasanFurkanFidan.UdemyCourse.IdentityServer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\IdentityServer\HasanFurkanFidan.UdemyCourse.IdentityServer\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\IdentityServer\HasanFurkanFidan.UdemyCourse.IdentityServer\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\IdentityServer\HasanFurkanFidan.UdemyCourse.IdentityServer\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\IdentityServer\HasanFurkanFidan.UdemyCourse.IdentityServer\bin\Debug\netcoreapp3.1\HasanFurkanFidan.UdemyCourse.SHARED.dll
+C:\Users\Furkan\source\repos\HasanFurkanFidan.UdemyCourse.Identity\IdentityServer\HasanFurkanFidan.UdemyCourse.IdentityServer\bin\Debug\netcoreapp3.1\HasanFurkanFidan.UdemyCourse.SHARED.pdb

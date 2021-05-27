@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "ixhC+NAPYXBut14xStVh01ciR8tY9I+hNS/KorrWAYCeB5X4xJqSFDWlAtX2IUOmUM/qNKMfMXGu6LIAluWZSw==",
-  "success": false,
+  "dgSpecHash": "E0oJn5yrhD0IX4CXNnLnk4tfnrY04GbR5oRzlaQ1TTekwWh+yknEhR3TrrJ+yQSlGhcf1nqgjN7QplQPQ/z+1w==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Furkan\\source\\repos\\HasanFurkanFidan.UdemyCourse.Identity\\IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer\\HasanFurkanFidan.UdemyCourse.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Furkan\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
@@ -164,15 +164,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore from 5.0.6 to 3.1.15. Reference the package directly from the project to select a different version. \r\n HasanFurkanFidan.UdemyCourse.IdentityServer -> HasanFurkanFidan.UdemyCourse.SHARED -> Microsoft.EntityFrameworkCore (>= 5.0.6) \r\n HasanFurkanFidan.UdemyCourse.IdentityServer -> Microsoft.EntityFrameworkCore (>= 3.1.15)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -2308,7 +2308,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
-          "Microsoft.EntityFrameworkCore": "5.0.6"
+          "Microsoft.EntityFrameworkCore": "3.1.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.15"
         },
         "compile": {
           "bin/placeholder/HasanFurkanFidan.UdemyCourse.SHARED.dll": {}
@@ -7542,16 +7543,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore from 5.0.6 to 3.1.15. Reference the package directly from the project to select a different version. \r\n HasanFurkanFidan.UdemyCourse.IdentityServer -> HasanFurkanFidan.UdemyCourse.SHARED -> Microsoft.EntityFrameworkCore (>= 5.0.6) \r\n HasanFurkanFidan.UdemyCourse.IdentityServer -> Microsoft.EntityFrameworkCore (>= 3.1.15)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

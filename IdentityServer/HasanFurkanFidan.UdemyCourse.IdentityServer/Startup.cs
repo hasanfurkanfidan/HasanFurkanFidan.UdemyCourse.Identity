@@ -30,6 +30,7 @@ namespace HasanFurkanFidan.UdemyCourse.IdentityServer
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLocalApiAuthentication();
             services.AddControllersWithViews().AddFluentValidation();
 
             services.AddDbContext<ApplicationDbContext>(options =>
@@ -83,6 +84,7 @@ namespace HasanFurkanFidan.UdemyCourse.IdentityServer
 
             app.UseRouting();
             app.UseIdentityServer();
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
