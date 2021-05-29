@@ -15,7 +15,7 @@ namespace HasanFurkanFidan.UdemyCourse.IdentityServer
         {
             new ApiResource("resource_catalog"){Scopes = {"catalog_fullpermission" } },
             new ApiResource("resource_photostock"){Scopes = {"photostock_fullpermission" } },
-
+            new ApiResource("resource_basket"){Scopes = {"basket_fullpermission"}}
         };
         public static IEnumerable<IdentityResource> IdentityResources =>
                    new IdentityResource[]
@@ -37,6 +37,7 @@ namespace HasanFurkanFidan.UdemyCourse.IdentityServer
             {
                new ApiScope("catalog_fullpermission","Catalog api için full erişim"),
                new ApiScope("photostock_fullpermission","Photo Stock api için full erişim"),
+               new ApiScope("basket_fullpermission","Basket microsevice için full erişim"),
                new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -58,7 +59,7 @@ namespace HasanFurkanFidan.UdemyCourse.IdentityServer
                   ClientSecrets = {new Secret ("secret".Sha256()) },
                   AllowOfflineAccess = true,
                   AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
-                  AllowedScopes = { IdentityServerConstants.StandardScopes.Email,IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile,
+                  AllowedScopes = {"basket_fullpermission", IdentityServerConstants.StandardScopes.Email,IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile,
                     IdentityServerConstants.StandardScopes.OfflineAccess,"roles"},
                   AccessTokenLifetime = 1*60*60,
                   RefreshTokenExpiration = TokenExpiration.Absolute,
