@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HasanFurkanFidan.UdemyCourse.IdentityServer.Models
 {
-    public class ApplicationRole:IdentityRole
+    public class ApplicationRole: IdentityRole<int>
     {
     }
 }

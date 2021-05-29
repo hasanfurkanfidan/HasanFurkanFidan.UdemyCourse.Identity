@@ -57,7 +57,8 @@ namespace HasanFurkanFidan.UdemyCourse.IdentityServer
                         user.FirstName = "Hasan Furkan";
                         user.LastName = "Fidan";
                         user.UserName = "hasanfurkanfidan";
-                        userManager.CreateAsync(user,"*147Fur369*").Wait();
+                        user.Email = "furkamfidan.job@gmail.com";
+                        userManager.CreateAsync(user,"*dsfdsfdsf*").Wait();
                     }
                 }
 

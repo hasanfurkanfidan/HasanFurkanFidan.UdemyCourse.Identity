@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
 using static IdentityServer4.IdentityServerConstants;
@@ -39,6 +40,17 @@ namespace HasanFurkanFidan.UdemyCourse.IdentityServer.Controllers
                 CreateActionResultInstance(Response<NoContent>.Fail(result.Errors.Select(p=>p.Description).ToList(),404));
             }
             return NoContent();
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetUser()
+        {
+            var userIdClaim = User.Claims.FirstOrDefault(p => p.Type == JwtRegisteredClaimNames.Sub);
+            if (userIdClaim==null)
+            {
+                return BadRequest();
+            }
+            var user = await _userManager.FindByIdAsync(userIdClaim.Value);
+            return Ok(user);
         }
     }
 }

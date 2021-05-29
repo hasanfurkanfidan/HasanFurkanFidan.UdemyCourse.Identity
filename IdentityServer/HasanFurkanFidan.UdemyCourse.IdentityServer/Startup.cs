@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using FluentValidation.AspNetCore;
+using HasanFurkanFidan.UdemyCourse.IdentityServer.Services;
 
 namespace HasanFurkanFidan.UdemyCourse.IdentityServer
 {
@@ -36,10 +37,10 @@ namespace HasanFurkanFidan.UdemyCourse.IdentityServer
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddIdentity<ApplicationUser, IdentityRole>()
+            services.AddIdentity<ApplicationUser, ApplicationRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-
+            
             var builder = services.AddIdentityServer(options =>
             {
                 options.Events.RaiseErrorEvents = true;
@@ -58,7 +59,7 @@ namespace HasanFurkanFidan.UdemyCourse.IdentityServer
 
             // not recommended for production - you need to store your key material somewhere secure
             builder.AddDeveloperSigningCredential();
-
+            builder.AddResourceOwnerValidator<IdentityResourceOwnerPasswordValidator>();
             services.AddAuthentication()
                 .AddGoogle(options =>
                 {
